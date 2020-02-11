@@ -4,7 +4,6 @@ import shutil
 import subprocess
 from sys import argv
 from tempfile import TemporaryDirectory
-from uuid import uuid4
 import zipfile
 
 
@@ -13,7 +12,7 @@ def make_pack_from(name, *filenames):
         images = []
 
         for filename in filenames:
-            tfn = '{}.png'.format(str(uuid4()).upper())
+            tfn = os.path.basename(filename)
             shutil.copyfile(filename, os.path.join(tdn, tfn))
             images.append(tfn)
 
