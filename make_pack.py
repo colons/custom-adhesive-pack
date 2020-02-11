@@ -24,7 +24,7 @@ def make_pack_from(name, *filenames):
         with open(os.path.join(tdn, 'Info.plist'), 'wb') as pf:
             plistlib.dump({
                 'images': images,
-                'size': 136,
+                'size': 206,
                 'title': name,
             }, pf)
 
