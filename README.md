@@ -23,6 +23,7 @@ A little utility to quickly create big sticker packs for [Adhesive][adhesive] so
 - [According to Apple][stickers], stickers must be less than 500 KB and probably not larger than 618x618px.
     - A useful ImageMagick incantation: `convert [src.png] -trim -resize '618x618>' [dst.png]`.
     - [Optimisation tools][optim] like ImageOptim or optipng might also help.
+- Other scripts in this repository are scripts for gathering assets. I aim to add more over time and keep each of them documented in the script's docstring.
 
 [adhesive]: https://apps.apple.com/us/app/adhesive/id1153165424
 [stickers]: https://developer.apple.com/documentation/messages#1864840
