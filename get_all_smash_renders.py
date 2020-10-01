@@ -86,6 +86,7 @@ banjo_and_kazooie
 terry
 byleth
 minmin
+steve
 """
 
 if __name__ == '__main__':
