@@ -89,6 +89,8 @@ minmin
 steve
 sephiroth
 pyra
+kazuya
+sora
 """
 
 if __name__ == '__main__':
